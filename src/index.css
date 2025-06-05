@@ -1,14 +1,29 @@
-.buttons{
-  list-style: none;
-  margin-top: 50px;
-  background-color: rgb(80, 80, 248);
-  padding: 10px 25px;
-  border-radius: 10px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.buttons a {
-  text-decoration: none;
-  color: #ffffff;
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1{
+  font-size: 2rem;
+  margin-top: 30px;
+}
+ul{
+  list-style-type: none;
+  padding: 15px;
+}
+button{
+  margin-top: 50px;
+  background-color: rgb(87, 87, 248);
+  padding: 10px 25px;
+  border: 1px solid rgb(87, 87, 248);
+  border-radius: 10px;
   font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
 }
 .flex {
   display: flex;
@@ -18,6 +33,16 @@
 }
 .container {
   max-width: 700px;
-  width: 80%;
   margin: 0 auto;
+}
+.active {
+  background-color: rgb(244, 220, 41);
+  border: 1px solid rgb(244, 220, 41);
+}
+.card{
+  border: 0.5px solid #000000;
+  padding: 20px;
+border-radius: 15px;
+font-size: 1rem;
+padding-right:100px ;
 }
